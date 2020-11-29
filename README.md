@@ -153,7 +153,7 @@ Here are a few things to try out first before you starting really digging in:
 - Is the CPLD soldered in correctly, with no solder bridges? Did you program it?
 - Did you program and install the 8051 (DSP)?
 - If the BIOS detects and installs the card, but you have issues with the audio, try removing all the expansion cards except for the Snark Barker
-- Try running [SBDIAG](https://github.com/schlae/snark-barker/tree/master/sbdiag0)
+- Try running [SBDIAG](https://github.com/schlae/snark-barker/tree/master/sbdiag)
 
 ### Symptom-by-Symptom
 
