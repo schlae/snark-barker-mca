@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SoundBlaster)(type KiCad)(uri "$(KIPRJMOD)/SoundBlaster.pretty")(options "")(descr ""))
+  (lib (name SoundBlasterMCA)(type KiCad)(uri ${KIPRJMOD}/SoundBlasterMCA.pretty)(options "")(descr ""))
+)

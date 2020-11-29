@@ -1,0 +1,52 @@
+AdapterId  5085h
+AdapterName "Snark Barker MCA by @TubeTimeUS!"
+NumBytes 2
+FixedResources
+  pos[0]=0000000Xb
+  io 0388h-0389h
+
+NamedItem
+  Prompt "I/O Address"
+    Choice "220h"   pos[1]=xxxxx010b io 0220-022fh
+    Choice "230h"   pos[1]=xxxxx011b io 0230-023fh
+    Choice "240h"   pos[1]=xxxxx100b io 0240-024fh
+    Choice "250h"   pos[1]=xxxxx101b io 0250-025fh
+    Choice "260h"   pos[1]=xxxxx110b io 0260-026fh
+  Help
+  "Selects the base address of the Snark Barker.
+   Use F5 to select the previous and F6 to select
+   the next menu option. Conflicting assignments
+   are marked with an asterisk and must be changed
+   to use the adapter."
+
+NamedItem
+  Prompt "Interrupt"
+    Choice "IRQ 5"   pos[1]=xxx10xxxb int 5
+    Choice "IRQ 7"   pos[1]=xxx11xxxb int 7
+    Choice "IRQ 3"   pos[1]=xxx01xxxb int 3
+    Choice "IRQ 2"   pos[1]=xxx00xxxb int 2
+  Help
+  "Selects the interrupt level of the Snark Barker.
+   Use F5 to select the previous and F6 to select
+   the next menu option. Conflicting assignments
+   are marked with an asterisk and must be changed
+   to use the adapter."
+
+NamedItem
+  Prompt "DMA Priority"
+    Choice "Level 1" pos[1]=x01xxxxxb arb 1
+    Choice "Level 0" pos[1]=x00xxxxxb arb 0
+    Choice "Level 3" pos[1]=x10xxxxxb arb 3
+  Help
+  "Selects the DMA priority level of the Snark Barker.
+   Use F5 to select the previous and F6 to select
+   the next menu option. Conflicting assignments
+   are marked with an asterisk and must be changed
+   to use the adapter."
+
+NamedItem
+  Prompt "Joystick Enable"
+    Choice "Enabled" pos[1]=1xxxxxxxb io 0200-020fh
+    Choice "Disabled" pos[1]=0xxxxxxxb
+  Help
+  "Controls the game/joystick port."

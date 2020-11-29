@@ -1,0 +1,90 @@
+#
+# SB MCA CPLD Version - Constraints (pin mapping)
+# Copyright (c) 2020 Eric Schlaepfer
+# This work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+# International License. To view a copy of this license, visit
+# http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative
+# Commons, PO Box 1866, Mountain View, CA 94042, USA.
+#
+
+# Pin map
+NET "adl_l" loc="P22";
+NET "adl_l" BUFG=CLK;
+NET "cmd" loc="P23";
+NET "cmd" BUFG=CLK;
+
+NET "arb_grant_l" loc="P27";
+NET "arb_grant_l" BUFG=CLK;
+
+NET "cden" loc="P1"; # Card enable signal for debugging (DBG1)
+NET "clk14" loc="P3"; # 14.318MHz clock
+
+NET "cd_setup_l" loc="P96";
+NET "refresh" loc="P97";
+NET "chck_l" loc="P28";
+NET "cd_sfdbk" loc="P8";
+NET "cd_ds16" loc="P6";
+NET "cd_chrdy_l" loc="P78";
+
+NET "m_io" loc="P17";
+NET "s0_w_l" loc="P20";
+NET "s1_r_l" loc="P18";
+NET "a(0)" loc="P42";
+NET "a(1)" loc="P49";
+NET "a(2)" loc="P50";
+NET "a(3)" loc="P52";
+NET "a(4)" loc="P53";
+NET "a(5)" loc="P54";
+NET "a(6)" loc="P55";
+NET "a(7)" loc="P56";
+NET "a(8)" loc="P58";
+NET "a(9)" loc="P59";
+NET "a(10)" loc="P60";
+NET "a(11)" loc="P61";
+NET "a(12)" loc="P63";
+NET "a(13)" loc="P64";
+NET "a(14)" loc="P65";
+NET "a(15)" loc="P66";
+
+NET "d(0)" loc="P67";
+NET "d(1)" loc="P68";
+NET "d(2)" loc="P70";
+NET "d(3)" loc="P71";
+NET "d(4)" loc="P72";
+NET "d(5)" loc="P74";
+NET "d(6)" loc="P76";
+NET "d(7)" loc="P77";
+
+NET "cms_dtack_l" loc="P79";
+NET "dsp_rd_cs_l" loc="P81";
+NET "dsp_wr_cs_l" loc="P82";
+NET "dav_cs_l" loc="P16";
+NET "dsp_rst_cs_l" loc="P15";
+NET "cms1_6_cs_l" loc="P90";
+NET "cms7_12_cs_l" loc="P91";
+NET "joy_cs_l" loc="P14";
+NET "ior_l" loc="P12";
+NET "iow_l" loc="P11";
+NET "ym_cs_l" loc="P13";
+NET "latched_a0" loc="P9";
+
+NET "bufen_l" loc="P93";
+NET "bufdir" loc="P92";
+
+NET "chreset" loc="P99";
+
+NET "preempt_l" loc="P41";
+NET "burst_l" loc="P40";
+NET "arb(0)" loc="P39";
+NET "arb(1)" loc="P37";
+NET "arb(2)" loc="P36";
+NET "arb(3)" loc="P35";
+NET "tc_l" loc="P25";
+NET "dreq" loc="P94";
+NET "dack_l" loc="P10";
+
+NET "irq_2" loc="P33";
+NET "irq_3" loc="P32";
+NET "irq_5" loc="P30";
+NET "irq_7" loc="P29";
+NET "irq_in" loc="P95";

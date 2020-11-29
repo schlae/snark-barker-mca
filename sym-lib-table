@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SnarkBarkerMCA-rescue)(type Legacy)(uri ${KIPRJMOD}/SnarkBarkerMCA-rescue.lib)(options "")(descr ""))
+  (lib (name microchannel)(type Legacy)(uri "C:/Data/Projects/KiCad Libraries/Schematic/microchannel.lib")(options "")(descr ""))
+)
