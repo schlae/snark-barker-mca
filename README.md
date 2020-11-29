@@ -48,9 +48,9 @@ MCA brackets are no longer available. You have a few options:
 
 If you want to print your own brackets, here are STL files of the front panel bracket and the rear bracket.
 
-[Front bracket](https://github.com/schlae/snark-barker-mca/mech/SnarkBarkerMCABracket3D.STL)
+[Front bracket](https://github.com/schlae/snark-barker-mca/blob/master/mech/SnarkBarkerMCABracket3D.STL)
 
-[Rear bracket](https://github.com/schlae/snark-barker-mca/mech/MCARearBracket.STL)
+[Rear bracket](https://github.com/schlae/snark-barker-mca/blob/master/mech/MCARearBracket.STL)
 
 For best results, use high quality filament and a layer height of 0.16mm or better. If you print using blue filament, the color will match the original IBM brackets.
 
