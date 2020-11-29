@@ -130,7 +130,7 @@ If you build the card and try it out, please let me know how it went. Be sure to
 ## Installation
 You will need the ADF (adapter description file) in order to set up the Snark Barker MCA on your Micro Channel computer.
 
-[Snark Barker MCA ADF](https://github.com/schlae/plaid-bib/blob/master/@5085.ADF)
+[Snark Barker MCA ADF](https://github.com/schlae/snark-barker-mca/blob/master/@5085.ADF)
 
 Place the file on a 3 1/2" floppy disk. After you install the card and boot
 the computer, it will detect that a new card has been installed and prompt
