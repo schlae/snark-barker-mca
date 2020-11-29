@@ -65,7 +65,7 @@ Another option is to buy a blank Atmel 89S51 (as listed in the BOM) and program 
 The Snark Barker MCA uses a CPLD (Complex Programmable Logic Device) to interface between the Micro Channel bus and the rest of the card's digital logic. This CPLD implements port IO, interrupts, DMA, and the card setup and POS (Programmable Option Select) systems.
 
 The CPLD must be programmed with the bitstream before you can use the card.
-[You can find the bitstream here.](https://github.com/schlae/snark-barker-mca/verilog/mcsb.jed)
+[You can find the bitstream here.](https://github.com/schlae/snark-barker-mca/blob/master/verilog/mcsb.jed)
 
 I've had good luck using the Linux command line program 'xc3sprog' with a FTDI FT2232H Mini Module [datasheet here](https://www.ftdichip.com/Support/Documents/DataSheets/Modules/DS_FT2232H_Mini_Module.pdf).
 
