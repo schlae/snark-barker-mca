@@ -23,7 +23,7 @@ Logic chips are all specified as HCT, but ALS may also be used. Do not use LS de
 ## Fabrication Notes
 This is a 4-layer board. The order of the two inner layers does not matter, but typically it goes F\_Cu, In1\_Cu, In2\_Cu, and B\_Cu. The board dimensions are 11.5 inches (292.1mm) by 3.475 inches (88.265mm).
 
-When ordering the board, you may want to specify a card edge bevel of 20 degrees (details of the bevel are included in the Dwgs.User layer). This is optional but makes the board much easier to insert in the bus slot. If you want to save money, you could order without the bevel and add a bevel yourself using a file.
+When ordering the board, you **must** specify a card edge bevel of 20 degrees (details of the bevel are included in the Dwgs.User layer). This is **not** optional! The contacts in the Micro Channel socket are easily bent if you attempt to insert a card with no bevel. [Don't believe me? See this page.](http://ps-2.kev009.com/ohlandl/RS6000/RS6000\_9-K.html#ECA265)
 
 Ideally you should use selective gold plating (hard gold) for the edge fingers, but this can get expensive for small orders. ENIG will work but the gold will rub off fairly quickly.
 
