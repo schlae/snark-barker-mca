@@ -56,6 +56,11 @@ For best results, use high quality filament and a layer height of 0.16mm or bett
 
 The front bracket should be oriented so that the front face of the bracket is facing towards the bed of the printer. The rear bracket should be oriented so its large flat spot (parallel to the card) faces the bed.
 
+To secure the bracket to the card, you need two screws, and you have several options:
+- 2-56 pan-head screws, 3/16" long, McMaster Carr 91772A076 or similar. These work but aren't the strongest.
+- Number 2 thread forming screws, 3/16" long, McMaster Carr 99461A710 or similar. These should grip the plastic tightly (TODO: untested).
+- There may be equivalent metric options but this requires experimentation. Please let me know if you find a fastener that works well.
+
 ## The Firmware
 There are two ways to get a programmed 80C51 chip for the Snark Barker MCA. One is to purchase a SB 2.0 DSP chip from China and put it in a 44-PLCC to 40-DIP adapter. This works fine and provides the largest feature set.
 
