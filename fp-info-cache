@@ -1,372 +1,645 @@
-82982254417618
-Active
-BETLUX_BL-T39X-32
+1607036542451
+Mounting_Holes
+MountingHole_2.2mm_M2
 
 
 0
-12
-12
-Active
-DFN100P300X300X110-6
+0
+0
+Mounting_Holes
+MountingHole_2.2mm_M2_DIN965
 
 
 0
-7
-7
-Active
-DIOM5226X210
-Diode SMA
-Diode SMA
 0
-2
-2
-Active
-DIOM8162X250
-Diode SMC (DO-214AB)
-Diode SMC (DO-214AB)
 0
-2
-2
-Active
-DIP254P762X635-4
-4-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-4
-4
-Active
-DIP254P762X635-6
-6-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-6
-6
-Active
-DIP254P762X635-8
-8-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-8
-8
-Active
-DIP254P762X635-10
-10-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-10
-10
-Active
-DIP254P762X635-14
-14-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-14
-14
-Active
-DIP254P762X635-16
-16-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-16
-16
-Active
-DIP254P762X635-18
-18-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-18
-18
-Active
-DIP254P762X635-20
-20-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-20
-20
-Active
-DIP254P762X635-22
-22-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-22
-22
-Active
-DIP254P762X635-24
-24-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-24
-24
-Active
-DIP254P762X635-28
-28-lead dip package, row spacing 7.62 mm (300 mils)
-dil dip 2.54 300
-0
-28
-28
-Active
-DIP254P1016X635-22
-22-lead dip package, row spacing 10.16 mm (400 mils)
-dil dip 2.54 400
-0
-22
-22
-Active
-DIP254P1016X635-24
-24-lead dip package, row spacing 10.16 mm (400 mils)
-dil dip 2.54 400
-0
-24
-24
-Active
-DIP254P1524X635-24
-24-lead dip package, row spacing 15.24 mm (600 mils)
-dil dip 2.54 600
-0
-24
-24
-Active
-DIP254P1524X635-28
-28-lead dip package, row spacing 15.24 mm (600 mils)
-dil dip 2.54 600
-0
-28
-28
-Active
-DIP254P1524X635-32
-32-lead dip package, row spacing 15.24 mm (600 mils)
-dil dip 2.54 600
-0
-32
-32
-Active
-DIP254P1524X635-32_A
-32-lead dip package, row spacing 15.24 mm (600 mils)
-dil dip 2.54 600
-0
-32
-32
-Active
-DIP254P1524X635-40
-40-lead dip package, row spacing 15.24 mm (600 mils)
-dil dip 2.54 600
-0
-40
-40
-Active
-DIP254P1524X635-48
-48-lead dip package, row spacing 15.24 mm (600 mils)
-dil dip 2.54 600
-0
-48
-48
-Active
-DIP254P1524X635-64
-64-lead dip package, row spacing 15.24 mm (600 mils)
-dil dip 2.54 600
-0
-64
-64
-Active
-DIP254P2286X635-64
-64-lead dip package, row spacing 22.86 mm (900 mils)
-dil dip 2.54 900
-0
-64
-64
-Active
-DIP254P2540X635-40
-40-lead dip package, row spacing 25.4 mm (1000 mils)
-dil dip 2.54 1000
-0
-40
-40
-Active
-KINGBRIGHT_ACDA02-41x
+Mounting_Holes
+MountingHole_2.2mm_M2_DIN965_Pad
 
 
 0
-20
-20
-Active
-LEDM1608X50
-LED 0603 smd package
-LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
 0
-2
-2
-Active
-LEDM1608X60_RA
-LED 0603 smd package, right angle
-LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
 0
-2
-2
-Active
-QFN50P700X700X90-45
+Mounting_Holes
+MountingHole_2.2mm_M2_ISO7380
 
 
 0
-45
-45
-Active
-SOD3716X117
-Diode SOD-123
-Diode SOD-123
 0
-2
-2
-Active
-SOJ127P851X356-20
+0
+Mounting_Holes
+MountingHole_2.2mm_M2_ISO7380_Pad
 
 
 0
-20
-20
-Active
-SOJ127P851X356-20_alt
+0
+0
+Mounting_Holes
+MountingHole_2.2mm_M2_ISO14580
 
 
 0
-20
-20
-Active
-SOP127P620X175-8
-8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
 0
-8
-8
-Active
-SOP127P620X175-14
-14-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC]
-SOIC 1.27
 0
-14
-14
-Active
-SOP127P620X175-16
-16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
-0
-16
-16
-Active
-SOP127P1065X265-16
-16-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
-0
-16
-16
-Active
-SOP127P1065X265-20
-20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
-0
-20
-20
-Active
-SOT95P230X117-3
-SOT-23, Standard
-SOT-23
-0
-3
-3
-Active
-SOT95P305X110-6
-SOT-23, Standard
-SOT-23
-0
-6
-6
-Active
-SOT230P700X170-3
-module CMS SOT223 4 pins
-CMS SOT
-0
-4
-3
-Active
-SSOP50P400X100-10
-10-Lead Plastic Micro Small Outline Package
-SSOP 0.5
-0
-10
-10
-Active
-SSOP50P500X110-10
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
-0
-10
-10
-Active
-TO92-IL
+Mounting_Holes
+MountingHole_2.2mm_M2_ISO14580_Pad
 
 
 0
-3
-3
-Active
-TQFP50P1600X1600X140-100
-100-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body 2.00 mm Footprint [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.5
 0
-100
-100
-Active
-TQFP80P900X900X120-32
-32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
-QFP 0.8
 0
-32
-32
-Active
-TSOP65P640X110-14
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
-0
-14
-14
-Active
-TSOP65P640X110-20
-10-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
-SSOP 0.5
-0
-20
-20
-Active
-TSOP65P640X120-24
+Mounting_Holes
+MountingHole_2.2mm_M2_Pad
 
 
 0
-24
-24
-Active
-TSQFP50P1200X1200X160-64
+0
+0
+Mounting_Holes
+MountingHole_2.2mm_M2_Pad_Via
 
 
 0
-64
-64
-Active
-TSQFP50P1200X1200X160-64_EP
+0
+0
+Mounting_Holes
+MountingHole_2.5mm
 
 
 0
-65
-65
-Active
-TSQFP50P1600X1600X160-100
+0
+0
+Mounting_Holes
+MountingHole_2.5mm_Pad
 
 
 0
-100
-100
-Active
-TSSOP50P320X85-8
+0
+0
+Mounting_Holes
+MountingHole_2.5mm_Pad_Via
 
 
 0
-8
-8
+0
+0
+Mounting_Holes
+MountingHole_2.7mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5_DIN965
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5_DIN965_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5_ISO7380
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5_ISO7380_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5_ISO14580
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5_ISO14580_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_M2.5_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_2.7mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3_DIN965
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3_DIN965_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3_ISO7380
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3_ISO7380_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3_ISO14580
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3_ISO14580_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.2mm_M3_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.7mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.7mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3.7mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_3mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4_DIN965
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4_DIN965_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4_ISO7380
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4_ISO7380_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4_ISO14580
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4_ISO14580_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3mm_M4_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3x6.2mm_M4_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.3x6.2mm_M4_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_DIN965
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_DIN965_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_ISO7380
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_ISO7380_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_ISO14580
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_ISO14580_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_DIN965
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_DIN965_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_ISO7380
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_ISO7380_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_ISO14580
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_ISO14580_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_8.4mm_M8
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_8.4mm_M8_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_8.4mm_M8_Pad_Via
+
+
+0
+0
+0
