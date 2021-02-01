@@ -125,8 +125,12 @@ people provide test reports.
 | Computer           | Model    | CPU          | Compatible ? |
 | ------------------ | -------- | ------------ | ------------ |
 | IBM PS/2 Model 50Z | 8550-031 | 80286-10     | Yes          |
+| IBM PS/2 Model P70 | 8573-061 | 80386DX-20   | Yes          |
 | IBM PS/2 Model 95  | 8595     | 486DX2-50    | Yes          |
 | NCR System 3400    | 3433     | 486DX2-66    | Yes          |
+| NCR System 3400    | 3421     | 386SX-20     | Issues       |
+
+Note: Some problems reported with the NCR 3421 possibly due to a conflict with the onboard SCSI. Further investigation is needed.
 
 Note: If you are using a PS/2 Model 80 machine with the type 1 planar (16MHz 386) and you have installed a MCA memory card, it is quite possible that the Snark Barker MCA will behave erratically in this machine. The Plaid Bib CPLD, the ancestor of this card, has issues in this model PS/2 and the root cause has not been identified.
 
