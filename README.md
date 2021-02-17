@@ -125,16 +125,46 @@ people provide test reports.
 | Computer           | Model    | CPU          | Compatible ? |
 | ------------------ | -------- | ------------ | ------------ |
 | IBM PS/2 Model 50Z | 8550-031 | 80286-10     | Yes          |
+| IBM PS/2 Model 70  | 8570-B21 | 80486DX2-50  | Yes(1)       |
 | IBM PS/2 Model P70 | 8573-061 | 80386DX-20   | Yes          |
 | IBM PS/2 Model 95  | 8595     | 486DX2-50    | Yes          |
 | NCR System 3400    | 3433     | 486DX2-66    | Yes          |
-| NCR System 3400    | 3421     | 386SX-20     | Issues       |
+| NCR System 3400    | 3421     | 386SX-20     | Issues(2)    |
 
-Note: Some problems reported with the NCR 3421 possibly due to a conflict with the onboard SCSI. Further investigation is needed.
+Note 1: See the *Machine Specific Notes* section below for more details about this configuration.
+
+Note 2: Some problems reported with the NCR 3421 possibly due to a conflict with the onboard SCSI. Further investigation is needed.
 
 Note: If you are using a PS/2 Model 80 machine with the type 1 planar (16MHz 386) and you have installed a MCA memory card, it is quite possible that the Snark Barker MCA will behave erratically in this machine. The Plaid Bib CPLD, the ancestor of this card, has issues in this model PS/2 and the root cause has not been identified.
 
-If you build the card and try it out, please let me know how it went. Be sure to give me the full part number of your computer along with any installed options (3rd-party planar, memory cards, etc).
+If you build the card and try it out, please let me know how it went. **Be sure to give me the full part number of your computer along with any installed options (3rd-party planar, memory cards, etc).** If you're located in Silicon Valley, you could also loan me (or even give me!) a computer not on this list and I will test for compatibility myself.
+
+## Machine Specific Notes
+
+### IBM PS/2 Model 70 486 (8570-B21)
+The configuration tested included
+- 8MB RAM (on the planar)
+- ESDI hard drive with DOS 6.22 and Windows 3.11 installed
+- Buslogic BT640A SCSI card
+- IBM XGA-2 video card
+
+Although not fully understood, this configuration experiences what appear to be IRQ conflicts. The Micro Channel bus allows IRQ sharing, but not all software supports this correctly, so it may be related to that. "Doom" only works when using IRQ2. A workaround is to replace the default DOS4GW DOS extender with the DOS32A extender; this allows IRQ5 and IRQ7 to work correctly.
+
+The Windows Sound Blaster driver crashes unless it is replaced with the driver recommended by Creative Labs for the SB Pro MCV.
+
+```
+Some PS/2 machines experience a "Bus timeout error" when running Windows
+3.1 in enhanced mode.  If you have this problem, Copy VDMAD.386 to your 
+WINDOWS\SYSTEM sub-directory and change the following line under the [386Enh]
+section in your SYSTEM.INI file.
+[386Enh]
+;change this line
+DEVICE=*VDMAD
+;to this line
+DEVICE=VDMAD.386
+```
+
+You can also fix it by first starting Windows in standard mode, `win /s`, exit, and then start Windows in enhanced mode `win` as you normally would.
 
 ## Installation
 You will need the ADF (adapter description file) in order to set up the Snark Barker MCA on your Micro Channel computer.
