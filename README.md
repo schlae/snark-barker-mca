@@ -125,6 +125,7 @@ people provide test reports.
 | Computer           | Model    | CPU          | Compatible ? |
 | ------------------ | -------- | ------------ | ------------ |
 | IBM PS/2 Model 50Z | 8550-031 | 80286-10     | Yes          |
+| IBM PS/2 Model 56  | 9556-KB6 | 80486SLC2-50 | Partial(1)   |
 | IBM PS/2 Model 70  | 8570-B21 | 80486DX2-50  | Yes(1)       |
 | IBM PS/2 Model P70 | 8573-061 | 80386DX-20   | Yes          |
 | IBM PS/2 Model 95  | 8595     | 486DX2-50    | Yes          |
@@ -140,6 +141,11 @@ Note: If you are using a PS/2 Model 80 machine with the type 1 planar (16MHz 386
 If you build the card and try it out, please let me know how it went. **Be sure to give me the full part number of your computer along with any installed options (3rd-party planar, memory cards, etc).** If you're located in Silicon Valley, you could also loan me (or even give me!) a computer not on this list and I will test for compatibility myself.
 
 ## Machine Specific Notes
+
+### IBM PS/2 Model 56 486SLC2 (9556-KB6)
+Configuration: No cards installed.
+
+The joystick port conflicts with the SCSI host that is built into the planar and must be disabled.
 
 ### IBM PS/2 Model 70 486 (8570-B21)
 The configuration tested included
