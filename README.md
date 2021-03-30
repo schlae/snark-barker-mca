@@ -128,6 +128,7 @@ people provide test reports.
 | IBM PS/2 Model 56  | 9556-KB6 | 80486SLC2-50 | Partial(1)   |
 | IBM PS/2 Model 70  | 8570-B21 | 80486DX2-50  | Yes(1)       |
 | IBM PS/2 Model P70 | 8573-061 | 80386DX-20   | Yes          |
+| IBM PS/2 Model 80  | 8580-071 | 80386DX-20   | Yes          |
 | IBM PS/2 Model 95  | 8595     | 486DX2-50    | Yes          |
 | NCR System 3400    | 3433     | 486DX2-66    | Yes          |
 | NCR System 3400    | 3421     | 386SX-20     | Issues(2)    |
