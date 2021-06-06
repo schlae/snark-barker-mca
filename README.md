@@ -16,7 +16,7 @@ Please note that the 0.1" header pins are *not* listed on the BOM. They are stan
 
 The CMS chips U14 and U15 should not be installed since CMS functionality is not implemented at this time. Other devices listed as "DNI" are to be left empty with no component soldered in place.
 
-Logic chips are all specified as HCT, but ALS may also be used. Do not use LS devices, particularly for U2, since Micro Channel is a much faster bus than ISA and LS logic is not quite fast enough to meet the timing margins.
+Logic chips are all specified as AHCT, but ALS or ACT may also be used. Do not use LS or HCT devices, particularly for U2, since Micro Channel is a much faster bus than ISA and this logic is not quite fast enough to meet the timing margins. Bipolar families like F or S devices use excessive amounts of power but can be used in a pinch.
 
 [Fab Files](https://github.com/schlae/snark-barker-mca/blob/master/fab/SnarkBarkerMCA-Rev2.zip)
 
