@@ -7,11 +7,11 @@ FixedResources
 
 NamedItem
   Prompt "I/O Address"
-    Choice "220h"   pos[1]=xxxxx010b io 0220-022fh
-    Choice "230h"   pos[1]=xxxxx011b io 0230-023fh
-    Choice "240h"   pos[1]=xxxxx100b io 0240-024fh
-    Choice "250h"   pos[1]=xxxxx101b io 0250-025fh
-    Choice "260h"   pos[1]=xxxxx110b io 0260-026fh
+    Choice "220h"   pos[1]=xxxxx010b io 0220h-022fh
+    Choice "230h"   pos[1]=xxxxx011b io 0230h-023fh
+    Choice "240h"   pos[1]=xxxxx100b io 0240h-024fh
+    Choice "250h"   pos[1]=xxxxx101b io 0250h-025fh
+    Choice "260h"   pos[1]=xxxxx110b io 0260h-026fh
   Help
   "Selects the base address of the Snark Barker.
    Use F5 to select the previous and F6 to select
@@ -46,7 +46,7 @@ NamedItem
 
 NamedItem
   Prompt "Joystick Enable"
-    Choice "Enabled" pos[1]=1xxxxxxxb io 0200-020fh
+    Choice "Enabled" pos[1]=1xxxxxxxb io 0200h-020fh
     Choice "Disabled" pos[1]=0xxxxxxxb
   Help
   "Controls the game/joystick port."
