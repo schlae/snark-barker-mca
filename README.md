@@ -6,7 +6,7 @@ Do you desperately want a sound card for playing games on your Micro Channel-bas
 
 The Snark Barker MCA is a Sound Blaster-compatible sound card designed specifically for computers that use the Micro Channel bus. It supports Ad Lib synthesis, digital sound playback and recording, a standard PC joystick, and SB MIDI.
 
-All of the components are readily available. In the bill of materials, Mouser part numbers are listed where available. The Yamaha synthesis chips may be obtained from a variety of sources in China, but they are not guaranteed to work, so I recommend getting 1 or 2 extras just in case. The same goes for the NE558.
+All of the components are readily available. In the bill of materials, Mouser part numbers are listed where available. The Yamaha synthesis chips may be obtained from a variety of sources in China, but they are not guaranteed to work, so I recommend getting 1 or 2 extras just in case. The same goes for the NE558. Note: A user reports that a Signetics NE558 with a date code of 8825VI that seems to be commonly available from China does not actually work. If you can't find any working 558 chips, try building [my replacement that uses four 555 chips](https://oshpark.com/shared_projects/zHGURt7g).
 
 [Schematic](https://github.com/schlae/snark-barker-mca/blob/master/SnarkBarkerMCA.pdf)
 
@@ -126,16 +126,20 @@ people provide test reports.
 | ------------------ | -------- | ------------ | ------------ |
 | IBM PS/2 Model 50Z | 8550-031 | 80286-10     | Yes          |
 | IBM PS/2 Model 56  | 9556-KB6 | 80486SLC2-50 | Partial(1)   |
+| IBM PS/2 Model 70  | 8570-E21 | 80386DX-16   | Yes          |
 | IBM PS/2 Model 70  | 8570-B21 | 80486DX2-50  | Yes(1)       |
 | IBM PS/2 Model P70 | 8573-061 | 80386DX-20   | Yes          |
 | IBM PS/2 Model 80  | 8580-071 | 80386DX-20   | Yes          |
 | IBM PS/2 Model 95  | 8595     | 486DX2-50    | Yes          |
+| IBM PS/2 Model 95  | 9595     | Pentium-90   | Yes(3)       |
 | NCR System 3400    | 3433     | 486DX2-66    | Yes          |
 | NCR System 3400    | 3421     | 386SX-20     | Issues(2)    |
 
 Note 1: See the *Machine Specific Notes* section below for more details about this configuration.
 
 Note 2: Some problems reported with the NCR 3421 possibly due to a conflict with the onboard SCSI. Further investigation is needed.
+
+Note 3: The Ad Lib detection routine used by some games is reported not to work
 
 Note: If you are using a PS/2 Model 80 machine with the type 1 planar (16MHz 386) and you have installed a MCA memory card, it is quite possible that the Snark Barker MCA will behave erratically in this machine. The Plaid Bib CPLD, the ancestor of this card, has issues in this model PS/2 and the root cause has not been identified.
 
@@ -197,6 +201,7 @@ Keep in mind that Micro Channel systems can be difficult to troubleshoot due to 
 
 Here are a few things to try out first before you starting really digging in:
 - Is the CPLD soldered in correctly, with no solder bridges? Did you program it?
+- Are there potentially bad or fake chips? Some users have reported issues with fake NE555s or fake 74ALS245 chips.
 - Did you program and install the 8051 (DSP)?
 - If the BIOS detects and installs the card, but you have issues with the audio, try removing all the expansion cards except for the Snark Barker
 - Try running [SBDIAG](https://github.com/schlae/snark-barker/tree/master/sbdiag)
@@ -218,6 +223,10 @@ Is the joystick enabled? Run the setup program and navigate to "Change Configura
 It is possible that you have an IRQ conflict. Micro Channel allows for IRQ sharing and not all games support this correctly. Try changing the IRQ using the setup program's "Change Configuration" menu and see if that helps.
 
 Since games implement Sound Blaster support in different ways, some programs may work and others may not!
+
+**The card causes random errors with the hard disk, or other cards**
+
+Do you have a legitimate 74ALS245, or is it fake? A user reported that swapping this part out with a legitimate one solved the problem for him.
 
 ### Troubleshooting for Engineers
 If you have an HP logic analyzer, like a 1670 or 16700 series, you can connect three cables to the Snark Barker MCA using standard HP 01650-63203 termination adapters. The pin assignments are as follows:
