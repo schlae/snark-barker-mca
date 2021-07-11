@@ -130,7 +130,7 @@ people provide test reports.
 | IBM PS/2 Model 70  | 8570-B21 | 80486DX2-50  | Yes(1)       |
 | IBM PS/2 Model P70 | 8573-061 | 80386DX-20   | Yes          |
 | IBM PS/2 Model 80  | 8580-071 | 80386DX-16   | Yes(4)       |
-| IBM PS/2 Model 95  | 8595     | 486DX2-50    | Yes          |
+| IBM PS/2 Model 95  | 8595     | 486DX2-50    | Yes(1)       |
 | IBM PS/2 Model 95  | 9595     | Pentium-90   | Yes(3)       |
 | NCR System 3400    | 3433     | 486DX2-66    | Yes          |
 | NCR System 3400    | 3421     | 386SX-20     | Issues(2)    |
@@ -161,7 +161,7 @@ The configuration tested included
 
 Although not fully understood, this configuration experiences what appear to be IRQ conflicts. The Micro Channel bus allows IRQ sharing, but not all software supports this correctly, so it may be related to that. "Doom" only works when using IRQ2. A workaround is to replace the default DOS4GW DOS extender with the DOS32A extender; this allows IRQ5 and IRQ7 to work correctly.
 
-The Windows Sound Blaster driver crashes unless it is replaced with the driver recommended by Creative Labs for the SB Pro MCV.
+The Windows Sound Blaster driver crashes unless it is replaced with the driver recommended by Creative Labs for the SB Pro MCV. "VDMAD.386" is in the SB Pro MCV driver pack.
 
 ```
 Some PS/2 machines experience a "Bus timeout error" when running Windows
@@ -176,6 +176,16 @@ DEVICE=VDMAD.386
 ```
 
 You can also fix it by first starting Windows in standard mode, `win /s`, exit, and then start Windows in enhanced mode `win` as you normally would.
+
+### IBM PS/2 Model 95 486DX2-50 (8595)
+The joystick seems to conflict with something else and the setup program turns it off.
+
+Getting Doom to run is slightly tricky and requires a hack. It only worked when IRQ was set to 5 and DOS4GW was replaced with DOS32A, but this version doesn't properly initialize the sound card. The hack is this:
+- Make a copy of DOOM.EXE: `copy doom.exe doom_p.exe`
+- Apply the DOS32A patch: `sb /r doom_p.exe`
+- Run the original first: `doom` and let it crash back to the DOS prompt.
+- Run the patched executable: `doom_p`
+
 
 ## Installation
 You will need the ADF (adapter description file) in order to set up the Snark Barker MCA on your Micro Channel computer.
