@@ -261,6 +261,9 @@ If you have an HP logic analyzer, like a 1670 or 16700 series, you can connect t
 | D14 | DB6       | A14  | ARB0     |
 | D15 | DB7       | A15  | BURST    |
 
+
+Or, you can load [this configuration file](https://github.com/schlae/snark-barker-mca/blob/master/MCABASE._A) onto your HP analyzer and save a bunch of manual data entry. J2 goes to pod 1, J4 goes to pod 2, and J5 goes to pod 3.
+
 An additional debug header, J6, brings out a few additional signals:
 
 | Pin | J6        |
