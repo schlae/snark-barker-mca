@@ -129,6 +129,7 @@ people provide test reports.
 | IBM PS/2 Model 70  | 8570-E21 | 80386DX-16   | Yes          |
 | IBM PS/2 Model 70  | 8570-B21 | 80486DX2-50  | Yes(1)       |
 | IBM PS/2 Model P70 | 8573-061 | 80386DX-20   | Yes          |
+| IBM PS/2 Model P75 | 8573-401 | 486DX2-66    | Yes(5)       |
 | IBM PS/2 Model 80  | 8580-071 | 80386DX-16   | Yes(4)       |
 | IBM PS/2 Model 95  | 8595     | 486DX2-50    | Yes(1)       |
 | IBM PS/2 Model 95  | 9595     | Pentium-90   | Yes(3)       |
@@ -142,6 +143,8 @@ Note 2: Some problems reported with the NCR 3421 possibly due to a conflict with
 Note 3: The Ad Lib detection routine used by some games is reported not to work
 
 Note 4: There is one report of the Plaid Bib (the ancestor to this card) behaving erratically in this model of PS/2. However I have not observed any issues with the Snark Barker MCA.
+
+Note 5: Machine has LAN Adapter/A installed.
 
 If you build the card and try it out, please let me know how it went. **Be sure to give me the full part number of your computer along with any installed options (3rd-party planar, memory cards, etc).** If you're located in Silicon Valley, you could also loan me (or even give me!) a computer not on this list and I will test for compatibility myself.
 
