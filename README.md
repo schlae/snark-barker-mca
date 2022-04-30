@@ -125,6 +125,7 @@ people provide test reports.
 | Computer           | Model    | CPU          | Compatible ? |
 | ------------------ | -------- | ------------ | ------------ |
 | IBM PS/2 Model 50Z | 8550-031 | 80286-10     | Yes          |
+| IBM PS/2 Model 55SX | 8555-X31 | 486SXLC2    | Yes          |
 | IBM PS/2 Model 56  | 9556-KB6 | 80486SLC2-50 | Partial(1)   |
 | IBM PS/2 Model 70  | 8570-E21 | 80386DX-16   | Yes          |
 | IBM PS/2 Model 70  | 8570-B21 | 80486DX2-50  | Yes(1)       |
